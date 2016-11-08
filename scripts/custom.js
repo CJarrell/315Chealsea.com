@@ -5,3 +5,7 @@ $(function(){
   console.log("ayyy");
   $('.carousel').carousel();
 });
+
+$(function(){
+  $('.owl-carousel').owlCarousel();
+});

@@ -164,12 +164,12 @@ p.copyright{
   
 }
 .splash-bg{
-  background-color: #252620;
+  background-color: white;
 
 }
 .logo-container{
   padding: 0px !important;
-  background: url(https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_xy_center,w_2560/v1475360580/splash-bg-_d5bdjo.jpg) no-repeat center;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -177,8 +177,8 @@ p.copyright{
 
 }
 .brand-trans{
-  border-top: .25px solid #749040;
-  border-bottom: .25px solid #749040;
+  border-top: .25px solid #cc3232;
+  border-bottom: .25px solid #cc3232;
   padding-top: 25px;
   padding-bottom: 100px;
   width: 100%;
@@ -193,9 +193,9 @@ p.copyright{
   padding: 25px;
 }
 .carousel-caption{
-  border-top: .25px solid #749040;
-  border-bottom: .25px solid #749040;
-  background: #749040 .5;
+  border-top: .25px solid #cc3232;
+  border-bottom: .25px solid #cc3232;
+  background: #cc3232 .5;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -204,7 +204,7 @@ p.copyright{
 
 }
 .liner{
-  border: .25px solid #749040;
+  border: .25px solid #cc3232;
   width: 80px;
   height: 1.5px;
   display: inline-block;

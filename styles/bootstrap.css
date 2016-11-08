@@ -4956,11 +4956,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-/*  padding-top: 30px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;*/
+  margin-bottom: 30px;
   color: inherit;
-  background-color: #252620;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4985,8 +4985,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-/*    padding-top: 48px;
-    padding-bottom: 48px;*/
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6363,9 +6363,6 @@ button.close {
   z-index: 5;
   display: inline-block;
   margin-top: -10px;
-  -webkit-box-shadow: #A12026 3px 3px 3px;
-  box-shadow: #749040 3px 3px 3px;
-  border-radius: 100%;
 }
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
@@ -6439,8 +6436,8 @@ button.close {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
-    width: 250px;
-    height: 250px;
+    width: 30px;
+    height: 30px;
     margin-top: -10px;
     font-size: 30px;
   }

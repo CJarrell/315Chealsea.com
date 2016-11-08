@@ -1,0 +1,215 @@
+
+/*Custom Styles for Serenity Gardens
+Author: Colby Jarrell
+© 2016 Colby Jarrell | //ColbyJCreative.com*/
+
+/*Typography*/
+
+blockquote,
+body,
+h1 {
+    line-height: 1.5
+}
+@font-face{
+  font-family: 'Delius', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+
+  font-family: 'Varela Round', sans-serif;
+}
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+h1,h2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size-adjust: .5
+}
+
+body {
+    font-size: 1em
+}
+
+@media (min-width:43.75em) {
+    body {
+        font-size: 1em;
+        line-height: 1.375
+    }
+}
+
+h1 {
+    font-size: 2.25em
+}
+
+@media (min-width:43.75em) {
+    h1 {
+        font-size: 2.75em;
+        line-height: 1.125
+    }
+}
+
+@media (min-width:56.25em) {
+    h1 {
+        font-size: 3em;
+        line-height: 1.05
+    }
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.15384615
+}
+
+@media (min-width:43.75em) {
+    h2 {
+        font-size: 2.25em;
+        line-height: 1.5
+    }
+}
+
+@media (min-width:56.25em) {
+    h2 {
+        font-size: 2.5em;
+        line-height: 1.5
+    }
+}
+
+h3 {
+    font-size: 1.75em;
+    line-height: 1.13636364
+}
+
+@media (min-width:43.75em) {
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.5
+    }
+}
+
+@media (min-width:56.25em) {
+    h3 {
+        font-size: 2.75em;
+        line-height: 1.5
+    }
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.11111111
+}
+
+
+blockquote {
+    font-size: 1.5em
+}
+
+@media (min-width:43.75em) {
+    h4 {
+        line-height: 1.22222222
+    }
+    blockquote {
+        font-size: 1.5em;
+        line-height: 1.45833333
+    }
+}
+p {
+    font-size: 1em;
+    line-height: 1.13636364
+}
+
+@media (min-width:43.75em) {
+    p {
+        font-size: 1em;
+        line-height: 1.5
+    }
+}
+
+@media (min-width:56.25em) {
+    p {
+        font-size: 1.5em;
+        line-height: 1.5
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0
+}
+
+ol,
+p,
+ul {
+    margin: 0
+}
+/*specified type classes*/
+p.copyright{
+  font-size: 1.5em;
+}
+/*Splash Page*/
+#splash-jtron{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  
+}
+.splash-bg{
+  background-color: #252620;
+
+}
+.logo-container{
+  padding: 0px !important;
+  background: url(https://res.cloudinary.com/colby-jarrell-creative-consultant/image/upload/c_fill,g_xy_center,w_2560/v1475360580/splash-bg-_d5bdjo.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+
+}
+.brand-trans{
+  border-top: .25px solid #749040;
+  border-bottom: .25px solid #749040;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(37, 38, 32, .8);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%
+}
+.trans-padding{
+  padding: 25px;
+}
+.carousel-caption{
+  border-top: .25px solid #749040;
+  border-bottom: .25px solid #749040;
+  background: #749040 .5;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  height: 223px !important;
+
+}
+.liner{
+  border: .25px solid #749040;
+  width: 80px;
+  height: 1.5px;
+  display: inline-block;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px
+}
+

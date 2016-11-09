@@ -9,3 +9,10 @@ $(function(){
 $(function(){
   $('.owl-carousel').owlCarousel();
 });
+
+// Disable Right Clicking
+$(document).ready(function(){
+  $('img').on("contextmenu", function(e){
+    return false;
+  });
+});

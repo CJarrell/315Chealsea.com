@@ -6370,14 +6370,19 @@ button.close {
 }
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
-  left: 150%;
+  left: 115%;
   margin-left: -10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 100px;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.85);
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
-  right: 150%;
+  right: 115%;
   margin-right: -10px;
-  text-shadow: 1px 1px 4px rgba(229, 229, 229, 0.85);
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 100px;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.85);
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next {

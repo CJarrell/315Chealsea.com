@@ -1,5 +1,5 @@
 
-// Custom JQuery for Serentity Gardens
+// Custom JQuery for 315chelsea.com
 // © 2016 Colby Jarrell | ColbyJCreative.com
 $(function(){
   console.log("ayyy");
@@ -11,8 +11,8 @@ $(function(){
 });
 
 // Disable Right Clicking
-$(document).ready(function(){
-  $('img').on("contextmenu", function(e){
-    return false;
-  });
-});
+// $(document).ready(function(){
+//   $('img').on("contextmenu", function(e){
+//     return false;
+//   });
+// });

@@ -53,11 +53,11 @@ Listing Agent: Brian Bishop, Adams Realtors
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Specs</a></li>
-        <li><a href="#">Architecture &amp; Design</a></li>
-        <li><a href="#">Realtor</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a href="#design">Architecture &amp; Design</a></li>
+        <li><a href="#realtor">Realtor</a></li>
+        <li><a href="#contact">Contact</a></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -101,7 +101,7 @@ Listing Agent: Brian Bishop, Adams Realtors
           <div class="item">
             <img class="img-responsive center-block" src="images/jumbo-3.jpg" alt="Chelsea Circle Interior - 1" />
             <div class="fadeIn carousel-caption container-fluid">
-              <h2 class="adams-red">Space, Glorious</h2>
+              <h2 class="adams-red">Space, Glorious Space</h2>
               <div class="liner"></div>
             </div>
           </div>
@@ -124,7 +124,7 @@ Listing Agent: Brian Bishop, Adams Realtors
       </div>
     </div>
     <!-- Chelsea Circle Info -->
-    <section id="main-info-container">
+    <section id="about">
       <div class="container text-center">
         <h1 class="main-header adams-red">315 Chelsea Circle NE,</br>Atlanta, Ga</h1>
         <h2 class="soft-sub-head">A custom designed and newly remodeled dream home.</h2>
@@ -216,41 +216,47 @@ Listing Agent: Brian Bishop, Adams Realtors
     </section>
 
     <!-- Realtor Info Container -->
-    <div class="container-fluid logo-container">
-      <div class="brand-trans">
-        <div class="row trans-padding">
-          <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-center realtor">
-            <img src="images/brian-sm.jpg" alt="Realtor Brian Bishop - Listing Agent" class="img-responsive center-block realtor-img">
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-justify">
-            <h2 class="adams-red">About your listing agent</h2>
-            <p style="margin-top: 30px">
-              <span class="adams-red">Brian Bishop</span> is a veteran in the Atlanta real estate market. With over x years of real estate experience, he has all of your bases covered. If you are interested in this property, feel free to contact Brian or his brokerage, <span class="adams-red">Adams Realtors</span>, with any inquiries you might have. 
-            </p>
-            <ul class="list-inline">
-              <li>
-                <h4>Brian Bishop</h4>
-              </li>
-              <li>
-                <h4>
-                  <a href="mailto:bebishop@comcast.net" alt="Email the Realtor! bebishop@comcast.net">bebishop@comcast.net</a>
-                </h4>
-              </li>
-              <li>
-                <h4><a href="tel:404.307.2557" alt="Call the Realtor! 404.307.2557">404.307.2557</a></h4>
-              </li>
-            </ul>
-            
+    <section id="realtor">
+      <div class="container-fluid logo-container">
+        <div class="brand-trans">
+          <div class="row trans-padding">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-center realtor">
+              <img src="images/brian-sm.jpg" alt="Realtor Brian Bishop - Listing Agent" class="img-responsive center-block realtor-img">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-justify">
+              <h2 class="adams-red">About your listing agent</h2>
+              <p style="margin-top: 30px">
+                <span class="adams-red">Brian Bishop</span> is a veteran in the Atlanta real estate market. With over x years of real estate experience, he has all of your bases covered. If you are interested in this property, feel free to contact Brian or his brokerage, <span class="adams-red">Adams Realtors</span>, with any inquiries you might have. 
+              </p>
+              <ul class="list-inline">
+                <li>
+                  <h4>Brian Bishop</h4>
+                </li>
+                <li>
+                  <h4>
+                    <a href="mailto:bebishop@comcast.net" alt="Email the Realtor! bebishop@comcast.net">bebishop@comcast.net</a>
+                  </h4>
+                </li>
+                <li>
+                  <h4><a href="tel:404.307.2557" alt="Call the Realtor! 404.307.2557">404.307.2557</a></h4>
+                </li>
+              </ul>
+              
 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  ">
+              <img src="images/adamsrealtors-logo.jpg" alt="" class="img-responsive center-block">
+            </div>
+            <div class="clearfix"></div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  ">
-            <img src="images/adamsrealtors-logo.jpg" alt="" class="img-responsive center-block">
-          </div>
-          <div class="clearfix"></div>
         </div>
-      </div>
 
-    </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contant" class="contact">
+      
+    </section>
   </secton>
 
   <!-- Copyright -->
@@ -261,11 +267,21 @@ Listing Agent: Brian Bishop, Adams Realtors
       </p>
     </div>
   </section>
+
   <!-- SCRIPTS -->
   <script type="text/javascript" src="scripts/jquery.js"></script>
   <script type="text/javascript" src="scripts/owl.carousel.js"></script>
   <script type="text/javascript" src="scripts/bootstrap.js"></script>
   <script type="text/javascript" src="scripts/custom.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80004549-4', 'auto');
+    ga('send', 'pageview');
+  </script>
   
 
   

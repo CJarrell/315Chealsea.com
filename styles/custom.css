@@ -44,8 +44,8 @@ body {
 
 @media (min-width:43.75em) {
     body {
-        font-size: 1em;
-        line-height: 1.375
+        font-size: 1.15em;
+        line-height: 1.25
     }
 }
 
@@ -125,13 +125,13 @@ blockquote {
     }
 }
 p {
-    font-size: 1em;
+    font-size: 1.15em;
     line-height: 1.13636364
 }
 
 @media (min-width:43.75em) {
     p {
-        font-size: 1em;
+        font-size: 1.25em;
         line-height: 1.1
     }
 }
@@ -188,7 +188,10 @@ p.adams-red{
   color: #cc3232;
 }
 p.black{
-  color:;
+  color: #222222;
+}
+h1.soft-sub-head{
+  color:#828282;
 }
 h2.soft-sub-head{
   color:#828282;
@@ -200,6 +203,7 @@ a.adams-red{
 span.adams-red{
   color: #cc3232;
 }
+
 .liner{
   border: .1px solid #cc3232;
   width: 120px;
@@ -217,8 +221,6 @@ section#header{
 }
 
 .carousel-caption{
-  
-
   border-top: .25px solid #cc3232;
   border-bottom: .25px solid #cc3232;
   background: rgba(255,255,255,.65);
@@ -250,25 +252,11 @@ section#about{
 
 }
 section#secondary-carousel{
-  padding-bottom: 7em;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,6d0019+100,ffffff+100 */
   background: #f8f8f8; /* Old browsers */
   background: -moz-linear-gradient(top, #f8f8f8 0%, #ffffff 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #f8f8f8 0%, #ffffff 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #f8f8f8 0%, #ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
-section#design{
-background-color: #ffffff;
-padding: 15px;
-}
-section#specs{
-  background-color: #f8f8f8;
-  padding: 15px;
-  background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8  100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8  100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
 }
 section#realtor{
   -webkit-box-shadow: -1px 7px 19px -4px rgba(0,0,0,0.75);
@@ -312,6 +300,29 @@ section#realtor{
   border: .5px solid #cc3232;
   display: inline-block;
 }
+/*Design Styles*/
+section#design{
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  padding: 15px;
+}
+#design.accent-mold-image{
+  height: 25%;
+  width: auto;
+}
+#design.accent-mold-text{
+  float: left;
+}
+/*Features Styles*/
+section#specs{
+  padding-bottom: 50px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8  100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8  100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+}
 /*Contact Styles*/
 section#contact{
   margin-top: 100px;
@@ -324,7 +335,7 @@ section#contact{
 }
 section#contact .g-form{
     position: absolute;
-    top: -155px;
+    top: -100px;
     overflow: hidden;
     padding: 0 !important;
     box-shadow: 0 0 4px #fff;

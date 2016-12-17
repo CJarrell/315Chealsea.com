@@ -323,6 +323,9 @@ section#specs{
   background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
 }
+.specs-pad{
+  padding-bottom: 15px;
+}
 /*Contact Styles*/
 section#contact{
   margin-top: 100px;

@@ -24,6 +24,9 @@ Listing Agent: Brian Bishop, Adams Realtors
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+
+  <script type="text/javascript" src="scripts/venobox.js"></script>
   <!-- STYLES -->
   <link rel="stylesheet" href="styles/bootstrap.css">
   <link rel="stylesheet" href="styles/owl.carousel.css">
@@ -31,8 +34,9 @@ Listing Agent: Brian Bishop, Adams Realtors
   <link rel="stylesheet" href="styles/custom.css">
   <link rel="stylesheet" href="styles/custom-responsive.css">
   <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="styles/venobox.css">
 
-
+  
   
 </head>
 <body>
@@ -117,11 +121,11 @@ Listing Agent: Brian Bishop, Adams Realtors
           </div>
           <!-- Prev and Next Button For Carousel -->
           <a class="left carousel-control" href="#splash-carousel" role="button" data-slide="prev">
-            <img class="icon-prev slideUp" src="images/icons/prev.svg">
+            <img class="icon-prev slideUp" src="images/icons/prev.svg" />
             <span class="sr-only">Previous</span>
           </a>
           <a class="right carousel-control" href="#splash-carousel" role="button" data-slide="next">
-            <img class="icon-next slideUp"src="images/icons/next.svg">
+            <img class="icon-next slideUp"src="images/icons/next.svg" />
             <span class="sr-only">Next</span>
           </a>
       </div>
@@ -138,103 +142,104 @@ Listing Agent: Brian Bishop, Adams Realtors
   <!-- Secondary Image Carousel - Owl Carousel -->
   <section id="secondary-carousel">
     <div class="owl-carousel owl-theme">
-      <div>
-        <img src="images/sm/02chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/03chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/05chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/06chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/07chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/08chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/09chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/10chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/11chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/14chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/15chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/16chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/17chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/18chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/19chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/20chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/21chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/22chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/23chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/24chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/26chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/27chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/28chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/30chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/31chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/32chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/33chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/34chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/35chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/36chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/37chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
-      <div>
-        <img src="images/sm/38chelsea-cir-sm.jpg" alt="" class="image-responsive">
-      </div>
+      <a class="venobox" data-gall="myGallery" href="images/sm/02chelsea-cir-sm.jpg">
+        <img src="images/sm/02chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/03chelsea-cir-sm.jpg">
+        <img src="images/sm/03chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/05chelsea-cir-sm.jpg">
+        <img src="images/sm/05chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/06chelsea-cir-sm.jpg">
+        <img src="images/sm/06chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/07chelsea-cir-sm.jpg">
+        <img src="images/sm/07chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/08chelsea-cir-sm.jpg">
+        <img src="images/sm/08chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/09chelsea-cir-sm.jpg">
+        <img src="images/sm/09chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/10chelsea-cir-sm.jpg">
+        <img src="images/sm/10chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/11chelsea-cir-sm.jpg">
+        <img src="images/sm/11chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/14chelsea-cir-sm.jpg">
+        <img src="images/sm/14chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/15chelsea-cir-sm.jpg">
+        <img src="images/sm/15chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/16chelsea-cir-sm.jpg">
+        <img src="images/sm/16chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/17chelsea-cir-sm.jpg">
+        <img src="images/sm/17chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/18chelsea-cir-sm.jpg">
+        <img src="images/sm/18chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/19chelsea-cir-sm.jpg">
+        <img src="images/sm/19chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/20chelsea-cir-sm.jpg">
+        <img src="images/sm/20chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/21chelsea-cir-sm.jpg">
+        <img src="images/sm/21chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/22chelsea-cir-sm.jpg">
+        <img src="images/sm/22chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/23chelsea-cir-sm.jpg">
+        <img src="images/sm/23chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/24chelsea-cir-sm.jpg">
+        <img src="images/sm/24chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/26chelsea-cir-sm.jpg">
+        <img src="images/sm/26chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/27chelsea-cir-sm.jpg">
+        <img src="images/sm/27chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/28chelsea-cir-sm.jpg">
+        <img src="images/sm/28chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/30chelsea-cir-sm.jpg">
+        <img src="images/sm/30chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/31chelsea-cir-sm.jpg">
+        <img src="images/sm/31chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/32chelsea-cir-sm.jpg">
+        <img src="images/sm/32chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/33chelsea-cir-sm.jpg">
+        <img src="images/sm/33chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/34chelsea-cir-sm.jpg">
+        <img src="images/sm/34chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/35chelsea-cir-sm.jpg">
+        <img src="images/sm/35chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/36chelsea-cir-sm.jpg">
+        <img src="images/sm/36chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/37chelsea-cir-sm.jpg">
+        <img src="images/sm/37chelsea-cir-sm.jpg" />
+      </a>  
+      <a class="venobox" data-gall="myGallery" href="images/sm/38chelsea-cir-sm.jpg">
+        <img src="images/sm/38chelsea-cir-sm.jpg" />
+      </a>  
     </div>
+
   </section>
   <!-- Design Section -->
   <section id="design" class="design">
@@ -340,7 +345,7 @@ Listing Agent: Brian Bishop, Adams Realtors
 
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  ">
-            <img src="images/adamsrealtors-logo.jpg" alt="" class="img-responsive center-block">
+            <img src="images/adamsrealtors-logo.jpg" class="img-responsive center-block">
           </div>
           <div class="clearfix"></div>
         </div>
@@ -368,8 +373,8 @@ Listing Agent: Brian Bishop, Adams Realtors
 
   <!-- SCRIPTS -->
   <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/venobox.js"></script>
   <script type="text/javascript" src="scripts/easing.js"></script>
-
   <script type="text/javascript" src="scripts/owl.carousel.js"></script>
   <script type="text/javascript" src="scripts/bootstrap.js"></script>
   <script type="text/javascript" src="scripts/custom.js"></script>

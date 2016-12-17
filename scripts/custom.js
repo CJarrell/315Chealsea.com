@@ -1,24 +1,23 @@
 
 // Custom JQuery for 315chelsea.com
 // © 2016 Colby Jarrell | ColbyJCreative.com
+// global $:false 
+// global window: false 
+
 $(function(){
-  console.log("ayyy");
   $('.carousel').carousel();
 });
-
+// Owl carousel
 $(function(){
   $('.owl-carousel').owlCarousel();
 });
-
 // Disable Right Clicking
 // $(document).ready(function(){
 //   $('img').on("contextmenu", function(e){
 //     return false;
 //   });
 // });
-
 // Animated Scrolling
-
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -29,3 +28,14 @@ $(function() {
         event.preventDefault();
     });
 });
+/* custom settings */
+$(function(){
+  $('.venobox').venobox({
+    framewidth: '800px',        // default: ''
+    border: '3px',             // default: '0'
+    bgcolor: '#ffffff',         // default: '#fff'
+    numeratio: true,            // default: false
+    infinigall: true            // default: false
+  });
+});
+

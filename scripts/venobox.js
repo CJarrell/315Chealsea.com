@@ -398,7 +398,6 @@
         }).each(function() {
           // if(this.complete) $(this).load();
         });
-
     }
 
     /* -------- CENTER ON LOAD -------- */

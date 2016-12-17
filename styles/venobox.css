@@ -7,8 +7,8 @@
 }
 /* ------- overlay: change here background color and opacity ----- */
 .vbox-overlay{
-    background: #fdfdfd;
-    background: rgba(0,0,0,0.85); 
+    background: #cc3232;
+    background: rgba(204,50,50,0.85); 
     width: 100%;
     height: auto;
     position: fixed;

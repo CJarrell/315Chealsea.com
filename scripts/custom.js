@@ -3,7 +3,7 @@
 // © 2016 Colby Jarrell | ColbyJCreative.com
 // global $:false 
 // global window: false 
-
+// Init Cocoen Slider
 $(function(){
   $('.carousel').carousel();
 });
@@ -38,4 +38,5 @@ $(function(){
     infinigall: true            // default: false
   });
 });
+
 

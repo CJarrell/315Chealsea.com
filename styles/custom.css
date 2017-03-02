@@ -357,6 +357,9 @@ section#specs{
 .specs-pad{
   padding-bottom: 15px;
 }
+.features{
+  padding-top: 1.75em;
+}
 /*Realtor Section*/
 @media (max-width: 768px){
   .realtor-text{

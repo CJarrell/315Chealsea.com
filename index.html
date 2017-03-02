@@ -298,8 +298,53 @@ Listing Agent: Brian Bishop, Adams Realtors
       <p class="specs-pad"><span class="adams-red">Stronger, Warmer, Brighter.</br></span></p>
       <div class="liner"></div>
       <p class="text-center" style="padding-top:15px;padding-bottom:25px"><span class="adams-red">315 Chelsea</span> is not just about the play of space and light.</br> Its systems are extraordinary. That is, they are <span class="adams-red">beyond</span> what you will find in other $1M houses.</p>
+      <!-- Specs Modal Trigger Button -->
+      <button id="specs-button" type="button" class="btn btn-danger" data-toggle="modal">
+        SPECIFICATIONS
+      </button>
+      <!-- Specs Modal -->
+      <div class="modal fade" id="specsModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title adams-red" id="exampleModalLabel">The Specs</h2>
+            </div>
+            <div class="modal-body text-center">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                  </tr>
+                </thead>
+                <tbody class="text-left">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Clay</td>
+                    <td>Preston</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Colby</td>
+                    <td>Jarrell</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Brian</td>
+                    <td>Bishop</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger btn-secondary" data-dismiss="modal">Close</button>
+            </div>  
+          </div>
+        </div>
+      </div>
       <!-- Features -->
-      <div class="row text-justify">
+      <div class="features row text-justify">
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="thumbnail">
             <a class="venobox" data-gall="specsGallery" href="images/sm/34chelsea-cir-sm.jpg">

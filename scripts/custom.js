@@ -38,5 +38,10 @@ $(function(){
     infinigall: true            // default: false
   });
 });
-
+// Specs Modal
+$(function(){
+  $('#specs-button').on('click', function(){   
+    $('#specsModal').modal('show');
+  });
+});
 

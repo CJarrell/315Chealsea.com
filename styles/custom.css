@@ -249,12 +249,7 @@ section#header{
 .carousel-caption > p{
   color: #222222 !important;
 }
-.coco-page{
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 65%;
-}
+
 .video {
     position: absolute;
     top: 0;
@@ -267,6 +262,27 @@ section#header{
   background-color: white;
 
 }*/
+div.matter {
+  padding-top: 50px;
+}
+.matter-inner {
+  border-top: 1.5px solid #cc3232;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.matter-inner iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+
 section#about{
   margin:25px;
   padding-top: 3em;
@@ -355,7 +371,10 @@ section#specs{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
 }
 .specs-pad{
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+}
+#specs-button{
+  margin-top: 15px;
 }
 .features{
   padding-top: 1.75em;
